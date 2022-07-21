@@ -11,6 +11,7 @@
     <modules>
         <module>aplication</module>
         <module>domain/model</module>
+        <module>domain/usecase</module>
     </modules>
 
     <properties>
