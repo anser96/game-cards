@@ -3,16 +3,19 @@ package co.com.game.model;
 public class Card {
     private String id;
     private String name;
-    private String breed;
+    private String description;
+
+    private String url;
 
     public Card() {
 
     }
 
-    public Card(String id, String name, String breed) {
+    public Card(String id, String name, String description, String url) {
         this.id = id;
         this.name = name;
-        this.breed = breed;
+        this.description = description;
+        this.url = url;
     }
 
     public String getId() {
@@ -31,11 +34,19 @@ public class Card {
         this.name = name;
     }
 
-    public String getBreed() {
-        return breed;
+    public String getDescription() {
+        return description;
     }
 
-    public void setBreed(String breed) {
-        this.breed = breed;
+    public void setDescription(String breed) {
+        this.description = breed;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }
