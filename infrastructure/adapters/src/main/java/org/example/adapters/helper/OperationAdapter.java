@@ -1,4 +1,4 @@
-package co.com.sofka.adapters.helper;
+package org.example.adapters.helper;
 
 import org.reactivecommons.utils.ObjectMapperI;
 import org.springframework.data.repository.query.ReactiveQueryByExampleExecutor;
