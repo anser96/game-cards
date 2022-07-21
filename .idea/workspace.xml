@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="968196d8-e1ae-4fc2-acd4-92b7aaa911fd" name="Changes" comment="Application">
-      <change beforePath="$PROJECT_DIR$/infrastructure/entry-points/src/main/java/org/example/api/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/entry-points/src/main/java/org/example/api/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/target/classes/org/example/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/target/classes/org/example/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/config/MongoDBSecret.class" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/target/classes/org/example/config/MongoDBSecret.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/CardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/CardRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/usecase/target/classes/org/example/usecase/ProcessCardUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/usecase/target/classes/org/example/usecase/ProcessCardUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/CardDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/CardDocument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/MongoDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/MongoDBRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/MongoRepositoryAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/MongoRepositoryAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/helper/OperationAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/helper/OperationAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/entry-points/target/classes/org/example/api/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/entry-points/target/classes/org/example/api/CardController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
