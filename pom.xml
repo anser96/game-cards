@@ -13,6 +13,7 @@
         <module>domain/model</module>
         <module>domain/usecase</module>
         <module>infrastructure/adapters</module>
+        <module>infrastructure/entry-points</module>
     </modules>
 
     <properties>
