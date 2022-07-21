@@ -12,6 +12,7 @@
         <module>aplication</module>
         <module>domain/model</module>
         <module>domain/usecase</module>
+        <module>infrastructure/adapters</module>
     </modules>
 
     <properties>
