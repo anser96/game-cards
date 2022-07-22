@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968196d8-e1ae-4fc2-acd4-92b7aaa911fd" name="Changes" comment="Application">
+    <list default="true" id="968196d8-e1ae-4fc2-acd4-92b7aaa911fd" name="Changes" comment="entrypointgit remote add origin https://github.com/anser96/game-cards.git">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/2961982f3d9ac7f2c7e6789c9cd893e251223fe6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30f80b38c6d41aa9ba6a4a152d974501553b0db9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/326fc67fcb993f15db42ed388511b246bfd34152" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/777ec91160cf03948f8680b33c7175d4f3e30b63" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fff2271f8e91ffcc382066fe007d846bfed1853" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f99424ac3d36ae1546592407a6b08ff56843a7a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aplication/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/target/classes/org/example/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/target/classes/org/example/config/ApplicationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/config/MongoDBSecret.class" beforeDir="false" afterPath="$PROJECT_DIR$/aplication/target/classes/org/example/config/MongoDBSecret.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/CardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/CardRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplication/target/classes/org/example/config/MongoDBSecret.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/CardRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/usecase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/usecase/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/usecase/target/classes/org/example/usecase/ProcessCardUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/usecase/target/classes/org/example/usecase/ProcessCardUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/adapters/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/CardDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/CardDocument.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/MongoDBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/MongoDBRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/MongoRepositoryAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/MongoRepositoryAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/helper/OperationAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/target/classes/org/example/adapters/helper/OperationAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/entry-points/target/classes/org/example/api/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/entry-points/target/classes/org/example/api/CardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/entry-points/src/main/java/org/example/api/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/entry-points/src/main/java/org/example/api/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/entry-points/target/classes/org/example/api/CardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,6 +64,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/andres.saenz/Desktop/game-cards/aplication/src/main/resources"
@@ -146,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658375722246</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="entrypoint">
+      <created>1658518194604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658518194604</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +192,7 @@
     <MESSAGE value=" ajustes adapter" />
     <MESSAGE value="entrypoints" />
     <MESSAGE value="Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Application" />
+    <MESSAGE value="entrypoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="entrypoint" />
   </component>
 </project>

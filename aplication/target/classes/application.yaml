@@ -1,8 +1,0 @@
-server:
-  port: 8080
-spring:
-  application:
-    name: "game-cards"
-  data:
-    mongodb:
-      uri: "mongodb://localhost:27017/gameCard"
