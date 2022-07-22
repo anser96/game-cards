@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 
 @Component
 @RestController
-@RequestMapping("/pet")
+@RequestMapping("/card")
 @CrossOrigin
 public class CardController {
     private final ProcessCardUseCase processCardUseCase;
