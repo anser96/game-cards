@@ -7,7 +7,6 @@ import reactor.core.publisher.Mono;
 
 public class ProcessCardUseCase {
     private final CardRepository repository;
-
     public ProcessCardUseCase(CardRepository repository) {
         this.repository = repository;
     }
