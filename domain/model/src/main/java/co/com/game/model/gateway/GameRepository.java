@@ -1,6 +1,8 @@
 package co.com.game.model.gateway;
 
+import co.com.game.model.Card;
 import co.com.game.model.Game;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface GameRepository {
@@ -9,4 +11,6 @@ public interface GameRepository {
     Mono<Game> findById(String id);
 
     Mono<Game> findByGameId(String gameId);
+
+    Flux<Game> findAll();
 }
