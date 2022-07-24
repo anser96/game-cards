@@ -1,5 +1,7 @@
 package org.example.adapters.helper;
 
+import co.com.game.model.Game;
+import org.example.adapters.game.GameDocument;
 import org.reactivecommons.utils.ObjectMapperI;
 import org.springframework.data.repository.query.ReactiveQueryByExampleExecutor;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
@@ -51,4 +53,12 @@ public abstract class OperationAdapter<E, D, I, R extends ReactiveCrudRepository
     private E mapToEntity(D document) {
         return toEntityFn.apply(document);
     }
+
+    protected Mono<D> saveData(D data) {
+        return repository.save(data);
+    }
+
+    protected abstract GameDocument toData(Game game);
+
+    protected abstract Game toEntity(GameDocument gameDocument);
 }

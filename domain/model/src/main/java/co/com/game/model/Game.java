@@ -1,45 +1,18 @@
 package co.com.game.model;
 
-import java.util.Set;
 
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.Set;
+@Getter
+@Setter
 public class Game {
     private String id;
     private String gameId;
     private Boolean playing;
     private Player winner;
     private Set<Player> players;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getGameId() {
-        return gameId;
-    }
-
-    public void setGameId(String gameId) {
-        this.gameId = gameId;
-    }
-
-    public Boolean getPlaying() {
-        return playing;
-    }
-
-    public void setPlaying(Boolean playing) {
-        this.playing = playing;
-    }
-
-    public Player getWinner() {
-        return winner;
-    }
-
-    public void setWinner(Player winner) {
-        this.winner = winner;
-    }
 
     public Game() {
         this.playing = false;
