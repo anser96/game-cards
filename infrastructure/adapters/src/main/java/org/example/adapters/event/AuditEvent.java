@@ -1,4 +1,4 @@
-package org.example.adapters.bus;
+package org.example.adapters.event;
 
 import org.springframework.context.ApplicationEvent;
 

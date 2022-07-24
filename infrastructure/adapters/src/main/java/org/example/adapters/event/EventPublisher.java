@@ -1,11 +1,11 @@
-package org.example.adapters.bus;
+package org.example.adapters.event;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 
 @Component
-public class EventPublish<T> {
+public class EventPublisher<T> {
     @Autowired
     private ApplicationEventPublisher publisher;
 

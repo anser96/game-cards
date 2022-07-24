@@ -1,6 +1,8 @@
-package org.example.adapters.bus;
+package org.example.adapters.event;
+
 
 import com.google.gson.Gson;
+import org.example.adapters.bus.RabbitMQEventBus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
