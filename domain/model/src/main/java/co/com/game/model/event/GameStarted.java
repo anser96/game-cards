@@ -1,6 +1,6 @@
 package co.com.game.model.event;
 
-import co.com.sofka.domain.generic.DomainEvent;
+
 import co.com.game.model.Player;
 import lombok.Getter;
 import lombok.Setter;
