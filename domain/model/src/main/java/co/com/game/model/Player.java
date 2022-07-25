@@ -11,20 +11,13 @@ public class Player {
     private String name;
     private String email;
     private Double points;
-    private Set<Card> deck;
+    private Set<Card> cards;
 
-    public Player() {
-        this.name = null;
-        this.email = null;
-        this.points = 0.0;
-        this.deck = Set.of();
-    }
-
-    public Player(String id, String name, String email) {
+    public Player(String id, String name, String email, Set<Card> cards) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.points = 0.0;
-        this.deck = Set.of();
+        this.cards = cards;
     }
 }
