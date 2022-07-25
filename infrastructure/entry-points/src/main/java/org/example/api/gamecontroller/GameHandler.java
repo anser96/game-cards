@@ -6,6 +6,7 @@ import co.com.game.model.Game;
 import co.com.game.model.Player;
 import co.com.game.model.event.DomainEvent;
 import com.google.gson.Gson;
+import com.sun.tools.jconsole.JConsoleContext;
 import lombok.RequiredArgsConstructor;
 import org.example.adapters.event.EventPublisher;
 import org.example.usecase.game.CreateGameUseCase;
@@ -30,15 +31,14 @@ public class GameHandler {
     private final StartGameUseCase startGameUseCase;
 
     public Mono<ServerResponse> createGame(ServerRequest serverRequest) {
-        return serverRequest.bodyToMono(String.class)
-                .map(this::establishGame)
+        return serverRequest.bodyToMono(Game.class)
                 .flatMap(createGameUseCase::createGame)
                 .flatMap(game -> ServerResponse.ok()
                         .contentType(MediaType.APPLICATION_JSON)
                         .body(BodyInserters.fromValue(game)));
     }
 
-    public Mono<ServerResponse> listenPOSTStartGameUseCase(ServerRequest serverRequest) {
+    public Mono<ServerResponse> startGame(ServerRequest serverRequest) {
         String gameId = serverRequest.pathVariable("gameId");
         var request = startGameUseCase.gameById(gameId)
                 .flatMap(startGameUseCase::startGame);
@@ -48,25 +48,5 @@ public class GameHandler {
         return request.flatMap(game -> ServerResponse.ok()
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(BodyInserters.fromValue(game)));
-    }
-
-    private Game establishGame(String body) {
-        var jsonBody = new JSONObject(body);
-        var deck = jsonBody.getJSONObject("player")
-                .getJSONArray("deck")
-                .toList()
-                .stream()
-                .map(currentCard -> new Gson().fromJson(currentCard.toString(), Card.class))
-                .collect(Collectors.toSet());
-
-        JSONObject jsonPlayer = jsonBody.getJSONObject("player");
-        Player player = new Player();
-        player.setId(jsonPlayer.getString("id"));
-        player.setName(jsonPlayer.getString("name"));
-        player.setEmail(jsonPlayer.getString("email"));
-        player.setPoints(jsonPlayer.getDouble("points"));
-        player.setDeck(deck);
-
-        return new Game(jsonBody.getString("id"), player);
     }
 }

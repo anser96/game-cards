@@ -58,7 +58,4 @@ public abstract class OperationAdapter<E, D, I, R extends ReactiveCrudRepository
         return repository.save(data);
     }
 
-    protected abstract GameDocument toData(Game game);
-
-    protected abstract Game toEntity(GameDocument gameDocument);
 }

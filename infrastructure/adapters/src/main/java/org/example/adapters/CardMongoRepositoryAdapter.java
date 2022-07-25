@@ -14,14 +14,4 @@ public class CardMongoRepositoryAdapter extends OperationAdapter<Card, CardDocum
     public CardMongoRepositoryAdapter(CardMongoDBRepository cardMongoDBRepository, ObjectMapperI mapper) {
         super(cardMongoDBRepository, mapper, d -> mapper.map(d, Card.class));
     }
-
-    @Override
-    protected GameDocument toData(Game game) {
-        return null;
-    }
-
-    @Override
-    protected Game toEntity(GameDocument gameDocument) {
-        return null;
-    }
 }

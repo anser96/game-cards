@@ -15,6 +15,7 @@ public class EventListener implements ApplicationListener<AuditEvent> {
     @Override
     public void onApplicationEvent(AuditEvent event) {
         var entity = new Gson().toJson(event.getEntity());
+        System.out.println("listener: "+ entity);
         bus.publish(entity);
     }
 }

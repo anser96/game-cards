@@ -1,5 +1,6 @@
 package co.com.game.model.event;
 
+import co.com.sofka.domain.generic.DomainEvent;
 import co.com.game.model.Player;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,16 +13,12 @@ import java.util.Set;
 public class GameStarted extends DomainEvent {
 
     private final String id;
-    private final String gameId;
     private final Boolean playing;
-    private final Player winner;
     private final Set<Player> players;
-    public GameStarted(String id, String gameId, Boolean playing, Player winner, Set<Player> players) {
-        super("game.GameStarted");
+    public GameStarted(String id, Boolean playing, Set<Player> players) {
+        super("co.com.game.model.event.GameStarted");
         this.id = id;
-        this.gameId = gameId;
         this.playing = playing;
-        this.winner = winner;
         this.players = players;
     }
 }
