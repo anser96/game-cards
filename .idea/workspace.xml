@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="968196d8-e1ae-4fc2-acd4-92b7aaa911fd" name="Changes" comment="guardar game y lanzar">
-      <change beforePath="$PROJECT_DIR$/domain/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/src/main/java/co/com/game/model/event/GameStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/src/main/java/co/com/game/model/event/GameStarted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/event/DomainEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/event/DomainEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/event/GameStarted.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/event/GameStarted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/CardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/CardRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/GameRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/GameRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/PlayerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/classes/co/com/game/model/gateway/PlayerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/adapters/src/main/java/org/example/adapters/event/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/adapters/src/main/java/org/example/adapters/event/EventListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
