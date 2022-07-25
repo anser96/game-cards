@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968196d8-e1ae-4fc2-acd4-92b7aaa911fd" name="Changes" comment="guardar game y lanzar">
-      <change beforePath="$PROJECT_DIR$/domain/model/target/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/target/model-1.0-SNAPSHOT.jar" afterDir="false" />
-    </list>
+    <list default="true" id="968196d8-e1ae-4fc2-acd4-92b7aaa911fd" name="Changes" comment="guardar game y lanzar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
