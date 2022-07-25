@@ -15,6 +15,7 @@ public class GameStarted extends DomainEvent {
     private final String id;
     private final Boolean playing;
     private final Set<Player> players;
+
     public GameStarted(String id, Boolean playing, Set<Player> players) {
         super("co.com.game.model.event.GameStarted");
         this.id = id;
